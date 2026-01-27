@@ -20,6 +20,9 @@ Paolo Lapira
 
 ## How to run
 
+#### Requirements
+- Docker
+
 ### PCA (Docker)
 
 ```
