@@ -20,4 +20,11 @@ Paolo Lapira
 
 ## How to run
 
-### PCA
+### PCA (Docker)
+
+```
+cd PCA
+docker compose up
+```
+
+Edit `INPUT_CSV` in `docker-compose.yml` to point to specific features CSV before running contianer.
