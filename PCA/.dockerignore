@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Distribution / Build
+dist/
+build/
+
+# Local data & Secrets
+.env
+data/
+*.log
+
+# Editor-specific
+.vscode/

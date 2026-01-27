@@ -1,0 +1,7 @@
+services:
+  pipeline:
+    build: .
+    volumes:
+      - ./data:/app/data  # Persist data locally
+    environment:
+      - INPUT_CSV=data/features/D20251128T104232_IFCB127_features_v4.csv
