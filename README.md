@@ -7,15 +7,20 @@ Paolo Lapira
 ├── PCA
 │   ├── Dockerfile
 │   ├── data
-│   │   ├── features
-│   │   │   ├── <CSVs>
-│   │   └── outputs
-│   │       ├── <Graphs>
 │   ├── docker-compose.yml
 │   ├── requirements.txt
 │   └── src
-│       └── main.py
-└── README.md
+├── README.md
+├── classification
+│   ├── classification_results.csv
+│   ├── classifier.py
+│   ├── image_preprocess.py
+│   ├── inverted_images
+│   └── models
+└── image_extraction
+    ├── extract_images.py
+    ├── output_pngs
+    └── requirements.txt
 ```
 
 ## How to run
