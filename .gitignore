@@ -1,1 +1,8 @@
 .venv
+.DS_store
+classification/*
+image_extraction/output_pngs/*
+image_classifier
+diy_classifier/potential*
+image_extraction/output_pngs.zip
+PCA/data
